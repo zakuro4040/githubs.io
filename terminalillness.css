@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+@font-face{
+    font-family: "japanfont";
+    src: url(fontfile/japanfont.otf);
+}
+li{
+    list-style: none;
+}
+
+/*header*/
+header{
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 15px;
+    background-color: transparent;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo a{
+    text-decoration: none;
+    color:white;
+    font-family: "japanfont";
+    font-size: 30px;
+}
+.header-nav a{
+    text-decoration: none;
+    color:white;
+}
+.header-nav ul{
+    display: flex;
+}
+.header-nav li{
+    padding-left: 70px;
+}
+.mainvisual{
+    background-color: transparent;
+}
+.mainvisual-logo{
+    position: absolute;
+    top: 38%;
+    left: 47%;
+    color: white;
+    z-index: 200;
+    font-family: "japanfont";
+    font-size: 29px;
+}
+/*about*/
+.about-wrapper>.container{
+    padding: 110px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.about-wrapper>.container h2{
+    text-align: center;
+}
+.about-team-logo{
+    transform: scale(0.7);
+    position: relative;
+}
+.about-team-description p{
+    text-align: center;
+}
+/*event*/
+.event-wrapper{
+    background-color: rgb(199, 195, 197);
+}
+.event-wrapper>.container{
+    text-align: center;
+    padding: 100px 0;
+}
+.event-wrapper>.container h2{
+    color: white;
+}
+.event-team-video{
+    transform: scale(0.7);
+    position: relative;
+}
+.event-team-description p{
+    text-align: center;
+    color: white;
+}
+/*member-wrapper*/
+.member{
+    width: 100%;
+}
+.member-wrapper{
+    background-color: black;
+}
+.member-wrapper>.container h2{
+    color:gray;
+}
+.member-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px ;
+    justify-content: center;
+}
+.coback{
+    height: 600px;
+}
+.coback h1{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+
