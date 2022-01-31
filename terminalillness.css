@@ -17,7 +17,7 @@ li{
 header{
     width: 100%;
     z-index: 100;
-    position: fixed;
+    position: absolute;
     top: 15px;
     background-color: transparent;
 }
@@ -31,6 +31,13 @@ header{
     font-family: "japanfont";
     font-size: 30px;
 }
+/*menu-icon*/
+.menu-icon{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
 .header-nav a{
     text-decoration: none;
     color:white;
@@ -40,6 +47,14 @@ header{
 }
 .header-nav li{
     padding-left: 70px;
+}
+@media(max-width:670px){
+    .header-nav-item{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
 }
 .mainvisual{
     background-color: transparent;
@@ -71,6 +86,7 @@ header{
 .about-team-description p{
     text-align: center;
 }
+
 /*event*/
 .event-wrapper{
     background-color: rgb(199, 195, 197);
@@ -80,7 +96,7 @@ header{
     padding: 100px 0;
 }
 .event-wrapper>.container h2{
-    color: white;
+    color: gray;
 }
 .event-team-video{
     transform: scale(0.7);
