@@ -69,6 +69,10 @@ header{
     font-size: 29px;
 }
 /*about*/
+.about-wrapper{
+    background-color: black;
+    padding: 80px;
+}
 .about-wrapper>.container{
     padding: 110px 0;
 }
@@ -76,8 +80,23 @@ header{
     display: flex;
     align-items: center;
 }
-.about-wrapper>.container h2{
+.about-head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.about-head a{
+    font-family: "The Redlight Free";
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding: 8px 4% 5px 4%;
     text-align: center;
+    letter-spacing: 4px;
+}
+.about-wrapper>.container h2{
+    font-family: "The Redlight Free";
+    color: white;
 }
 .about-team-logo{
     transform: scale(0.7);
@@ -85,18 +104,35 @@ header{
 }
 .about-team-description p{
     text-align: center;
+    color: white;
 }
 
 /*event*/
 .event-wrapper{
-    background-color: rgb(199, 195, 197);
+    background-color: black;
+    padding: 80px;
 }
 .event-wrapper>.container{
     text-align: center;
     padding: 100px 0;
 }
+.event-head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.event-head a{
+    font-family: "The Redlight Free";
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding: 8px 4% 5px 4%;
+    text-align: center;
+    letter-spacing: 4px;
+}
 .event-wrapper>.container h2{
-    color: gray;
+    font-family: "The Redlight Free";
+    color: white;
 }
 .event-team-video{
     transform: scale(0.7);
@@ -112,9 +148,11 @@ header{
 }
 .member-wrapper{
     background-color: black;
+    padding: 200px;
 }
 .member-wrapper>.container h2{
-    color:gray;
+    font-family: "japanfont";
+    color:white;
 }
 .member-img {
     display: flex;
