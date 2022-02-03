@@ -8,7 +8,7 @@
 @font-face{
     font-family: "japanfont";
     src: url(fontfile/japanfont.otf);
-}
+}   
 li{
     list-style: none;
 }
@@ -71,7 +71,7 @@ header{
 /*about*/
 .about-wrapper{
     background-color: black;
-    padding: 80px;
+    padding: 40px;
 }
 .about-wrapper>.container{
     padding: 110px 0;
@@ -110,7 +110,7 @@ header{
 /*event*/
 .event-wrapper{
     background-color: black;
-    padding: 80px;
+    padding: 40px;
 }
 .event-wrapper>.container{
     text-align: center;
@@ -145,13 +145,13 @@ header{
 /*member-wrapper*/
 .member{
     width: 100%;
+    margin: 0 auto;
 }
 .member-wrapper{
     background-color: black;
-    padding: 200px;
 }
 .member-wrapper>.container h2{
-    font-family: "japanfont";
+    font-family: "The Redlight Free";
     color:white;
 }
 .member-img {
